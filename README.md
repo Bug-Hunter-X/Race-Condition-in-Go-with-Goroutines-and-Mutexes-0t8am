@@ -1,0 +1,1 @@
+This repository demonstrates a race condition in a Go program that uses goroutines and mutexes to increment a shared counter. The program aims to increment the counter 1000 times using 1000 goroutines, but due to race conditions, the final count might be less than 1000. The solution demonstrates how to correctly use mutexes to prevent race conditions.
